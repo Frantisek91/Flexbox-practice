@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+.header {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 0 10px 20px;    
+}
+
+.columns {
+    display: flex;
+}
+
+.main {
+    background-color:#fff;
+    color:#555;
+    padding: 10px 0 10px 20px;
+    flex:4;
+    padding: 10px 20px;
+}
+.main h2{
+    border-bottom: 3px solid #555;
+}
+
+.side {
+    background-color: darkred;
+    color: white;
+    order: -1;
+    padding: 10px 20px 10px 0;
+    flex:1;
+    text-align: center;
+}
+
+.footer {
+    background-color: #555;
+    color: white;
+    padding: 10px 0 10px 20px;
+}
+
